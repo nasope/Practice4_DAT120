@@ -16,4 +16,4 @@ def minsteKvadratersMetode(x: list, y: list):
 
     return (a,b)
 
-#print(minsteKvadratersMetode([1,2,3,4,5],[1,2,3,4,5]))
+print(minsteKvadratersMetode([1,2,3,4,5],[1,2,3,4,5]))
