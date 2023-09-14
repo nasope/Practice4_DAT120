@@ -1,17 +1,14 @@
 # Øving 4, Oppgave e)
-def differanse(liste: list):
+def differanse(input_list):
+    liste = []
+    n = int(input("Skriv inn antall tall du vil ha i listen din: "))
+    for i in range(0, n):
+        tall = int(input())
+        liste.append(tall)
     diff = []
     for i in range(n-1):
         diff.append(liste[i+1]-liste[i])
     return diff
 
-n = int(input("Skriv inn antall tall du vil ha i listen din: "))
-
-liste = []
-for i in range(n):
-    tall = int(input())
-    liste.append(tall)
-
 resultat = differanse(list)
 print(resultat)
-
