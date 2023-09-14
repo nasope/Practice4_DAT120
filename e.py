@@ -12,11 +12,3 @@ def differanse(input_list):
 
 resultat = differanse(list)
 print(resultat)
-
-
-
-
-
-
-
-
