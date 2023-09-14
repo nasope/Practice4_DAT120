@@ -1,5 +1,5 @@
 from g import *
-from lister_for_del_1 import *
+from lister_for_del_1 import minsteKvadratersMetode
 
 a,b = minsteKvadratersMetode(temperaturer,temperaturer_tidspunkter)
 
