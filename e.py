@@ -14,3 +14,4 @@ for i in range(n):
 
 resultat = differanse(list)
 print(resultat)
+
